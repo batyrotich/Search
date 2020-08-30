@@ -9,12 +9,14 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
+import { DateCountPipe } from './date-count.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     UserprofileComponent,
-    RepositoryComponent
+    RepositoryComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
