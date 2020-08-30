@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { from } from 'rxjs';
 
 @Injectable({
@@ -9,8 +9,8 @@ export class UserProfileService {
 
   username:string;
   repoName: string;
-  clientId: string;
-  clientSecret: string;
+  clientId: string ='fa5d5738d694823e934f';
+  clientSecret: string = '1b43480263d48eb9f7029c6c46974a904b1344ae';
   apikey: string ='153d501385617aeabd8dbc2d7140b33f6e2e3290';
 
 
