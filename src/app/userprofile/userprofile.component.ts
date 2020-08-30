@@ -15,8 +15,23 @@ export class UserprofileComponent implements OnInit {
   constructor( private userProfile: UserProfileService) { 
 
   }
+  findProfile() {
+    this.userProfile.updateProfile(this.username);
 
-  ngOnInit(): void {
+    this.userProfile.getUser().subscribe(profile => {
+      console.log(profile);
+      this.profile = profile
+    });
+
+    this.userProfile.getRepos().subscribe(repos => {
+      console.log(repos);
+      this.repos = repos;
+
+    })
+  }
+  ngOnInit() {
+    this.findProfile()
   }
 
-}
+} 
+
