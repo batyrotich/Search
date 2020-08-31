@@ -47,8 +47,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Contact Info
 
-phone: 0715017129
-email: eddahbaty98@gmail.com
++ phone: 0715017129
++ email: eddahbaty98@gmail.com
 
 ## License Informaton
 
