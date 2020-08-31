@@ -10,13 +10,15 @@ import { RepositoryComponent } from './repository/repository.component';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
 import { DateCountPipe } from './date-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     UserprofileComponent,
     RepositoryComponent,
-    DateCountPipe
+    DateCountPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
