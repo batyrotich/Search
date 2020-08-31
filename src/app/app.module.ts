@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
 import { DateCountPipe } from './date-count.pipe';
 import { HighlightDirective } from './highlight.directive';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { HighlightDirective } from './highlight.directive';
     UserprofileComponent,
     RepositoryComponent,
     DateCountPipe,
-    HighlightDirective
+    HighlightDirective,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
