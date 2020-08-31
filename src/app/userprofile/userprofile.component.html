@@ -8,7 +8,6 @@
     <div class="card-header">
       Username: {{profile.login}}
     </div>
-
     <div class="card-body">
       <div class="row">
         <div class="col-md-3">
@@ -35,7 +34,7 @@
       </div>
     </div>
     </div>
-<div class="card bg-light" *ngIf="profile.public_repos">
+<div class="card bg-light" *ngIf="profile.public_repos" class="repo">
   <div class="card-header">
     <h2>Repositories</h2>
   </div>

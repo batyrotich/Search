@@ -1,0 +1,19 @@
+.searchbox{
+    margin-top: 30px;
+    margin-left: 8%;
+}
+.users{
+    padding: 10px;
+
+}
+.profileimage{
+    height: 240px;
+    width: 240px;
+}
+.btn{
+    margin:10px;
+}
+.repo{
+    background-color: teal;
+}
+
