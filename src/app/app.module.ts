@@ -10,7 +10,7 @@ import { RepositoryComponent } from './repository/repository.component';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
 import { DateCountPipe } from './date-count.pipe';
-import { HighlightDirective } from './highlight.directive';
+//import { RepoHighlightDirective } from './repohighlight.directive';
 import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { FooterComponent } from './footer/footer.component';
     UserprofileComponent,
     RepositoryComponent,
     DateCountPipe,
-    HighlightDirective,
+    //RepoHighlightDirective,
     FooterComponent
   ],
   imports: [
